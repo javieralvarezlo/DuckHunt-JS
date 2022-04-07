@@ -1,0 +1,7 @@
+[{
+    "id": "1",
+    "title": "shot_fail",
+    "type": "blocking",
+    "description": "Event triggered on failing a shot",
+    "event_frequency": "skill-dependent_high"
+}]
