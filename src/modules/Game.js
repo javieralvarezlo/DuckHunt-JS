@@ -582,7 +582,7 @@ class Game {
             this.bullets -= 1;
             let shots = this.stage.shotsFired(clickPoint, this.level.radius);
             this.updateScore(shots);
-            if (shots == 0) {
+            if (shots === 0) {
                 this.pause();
                 SGAME.triggerLO(1, (pass) => {
                     if (pass) {
